@@ -47,6 +47,7 @@ ios/build
 
 # android related
 android/app/build/
+android/.kotlin/
 
 # Symbolication related
 app.*.symbols
