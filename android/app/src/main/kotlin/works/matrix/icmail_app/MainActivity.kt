@@ -1,4 +1,4 @@
-package de.enough.enough_mail_app
+package works.matrix.icmail
 
 //import android.content.ContentProviderClient
 import android.content.Intent
@@ -24,7 +24,7 @@ class MainActivity: FlutterFragmentActivity() {
     }
     
     override fun onNewIntent(newIntent: Intent) {
-        //println("maily onNewIntent: $newIntent")
+        //println("ICMail onNewIntent: $newIntent")
         checkForShareIntent(newIntent)
         super.onNewIntent(newIntent)
     }

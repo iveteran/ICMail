@@ -1,10 +1,9 @@
-# Codename: Maily
+# Codename: ICMail(IncontrolMail)
 Mail app for iOS, Android and hopefully more platforms in the future. Developed in [Flutter](https://flutter.dev).
 
-## Test Maily
-You can test an early access version of Maily today:
-* on Android at [Google Play](https://play.google.com/store/apps/details?id=de.enough.enough_mail_app).
-* on iOS with [TestFlight](https://testflight.apple.com/join/6TFIg0uJ).
+## Test ICMail
+You can test an early access version of ICMail today:
+* on Android at [Google Play](https://play.google.com/store/apps/details?id=works.matrix.icmail).
 
 ## Screenshots Android
 [<img src="screenshots/welcome.png" width="320"/>](screenshots/welcome.png)
@@ -31,7 +30,7 @@ You can test an early access version of Maily today:
 * Swipe left or right in the message details to view the next/previous message
 * Experimental 'stack' display of messages
 * Share received attachments to other apps and forward attachments to a new message
-* Share files to Maily
+* Share files to ICMail
 * Search for messages, including universal search
 * Delete all messages in trash and junk folders or in a search result
 * Archive messages
@@ -56,11 +55,11 @@ Every contribution is welcome. Since the project is licensed under the [GPL](LIC
 
 This is how you contribute:
 
-* Fork the [maily](https://github.com/enough-software/maily/) project by pressing the fork button.
-* Clone your fork to your computer: `git clone github.com/$your_username/maily`
+* Fork the [ICMail](https://github.com/iveteran/ICMail/) project by pressing the fork button.
+* Clone your fork to your computer: `git clone github.com/$your_username/ICMail`
 * Do your changes. When you are done, commit changes with `git add -A` and `git commit`.
 * Push changes to your personal repository: `git push origin`
-* Go to [maily](https://github.com/enough-software/maily/) and create a pull request.
+* Go to [ICMail](https://github.com/iveteran/ICMail/) and create a pull request.
 
 When you have compile problems this is usually due to not getting the latest version from git. Call `flutter pub upgrade` to ensure that you are on the latest version of all referenced projects. Since translations are generated you can ignore all translation problems, just start the build, afterwards the localization compilation problems will be gone.
 
@@ -75,7 +74,7 @@ When changing such classes, you have to re-run code generation
 by calling `dart run build_runner build --delete-conflicting-outputs`.
 
 ## License
-`maily` is licensed under the [GNU Public License 3.0 "GPL"](LICENSE). In a nutshell this means that you can play around as much as possible for private reasons, but that you need to publish your changes under the GPL, as soon as you the code commercially.
+`ICMail` is licensed under the [GNU Public License 3.0 "GPL"](LICENSE). In a nutshell this means that you can play around as much as possible for private reasons, but that you need to publish your changes under the GPL, as soon as you the code commercially.
 
 ## Related Projects
 Check out these related projects:
@@ -87,4 +86,4 @@ Check out these related projects:
 * [enough_convert](https://github.com/Enough-Software/enough_convert) provides the encodings missing from `dart:convert`.  
 
 
-![Maily Logo](/maily.png)
+![ICMail Logo](assets/images/icmail.png)

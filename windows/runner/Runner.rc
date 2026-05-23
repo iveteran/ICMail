@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "de.enough" "\0"
-            VALUE "FileDescription", "enough_mail_app" "\0"
+            VALUE "CompanyName", "Matrixworks" "\0"
+            VALUE "FileDescription", "ICMail" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "enough_mail_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 de.enough. All rights reserved." "\0"
-            VALUE "OriginalFilename", "enough_mail_app.exe" "\0"
-            VALUE "ProductName", "enough_mail_app" "\0"
+            VALUE "InternalName", "ICMail" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 Matrixworks. All rights reserved." "\0"
+            VALUE "OriginalFilename", "ICMail.exe" "\0"
+            VALUE "ProductName", "ICMail" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

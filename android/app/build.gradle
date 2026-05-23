@@ -36,7 +36,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "de.enough.enough_mail_app"
+    namespace = "works.matrix.icmail"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -48,7 +48,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "de.enough.enough_mail_app"
+        applicationId = "works.matrix.icmail"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
         minSdk = flutter.minSdkVersion
@@ -150,7 +150,7 @@ dependencies {
 
 
 //     defaultConfig {
-//         applicationId "de.enough.enough_mail_app"
+//         applicationId "works.matrix.icmail"
 //         minSdkVersion rootProject.ext.minSdkVersion
 //         targetSdkVersion rootProject.ext.targetSdkVersion
 //         versionCode flutterVersionCode.toInteger()
@@ -176,7 +176,7 @@ dependencies {
 //             }
 //         }
 //     }
-//     namespace 'de.enough.enough_mail_app'
+//     namespace 'works.matrix.icmail'
 //     lint {
 //         disable 'InvalidPackage'
 //     }

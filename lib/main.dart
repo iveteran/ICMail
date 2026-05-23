@@ -15,7 +15,7 @@ void main() {
         settingsProvider.overrideWith(CustomSettingsNotifier.new),
       ],
       child: const EnoughMailApp(
-        appName: 'Maily',
+        appName: 'ICMail',
       ),
     ),
   );

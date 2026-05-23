@@ -14,7 +14,7 @@
     <application
         tools:replace="android:label"
         android:name="${applicationName}"
-        android:label="Maily"
+        android:label="ICMail"
         android:icon="@mipmap/ic_launcher"
         android:fullBackupContent="@xml/backup_rules"
         >
@@ -64,7 +64,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="com.googleusercontent.apps.424146727626-6rrctb5oaovtghijvt091puvpo33u5c1" />
-                <data android:scheme="maily" android:pathPrefix="oauth" />
+                <data android:scheme="icmail" android:pathPrefix="oauth" />
             </intent-filter>
         </activity>
         <receiver android:exported="false" android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver">
