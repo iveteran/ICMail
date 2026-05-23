@@ -1,12 +1,14 @@
 allprojects {
     repositories {
+        maven { url "https://maven.aliyun.com/repository/central" }
+        maven { url "https://maven.aliyun.com/repository/public" }
         google()
         mavenCentral()
-        maven {
-           // [required] background_fetch
-           // compare https://github.com/transistorsoft/flutter_background_fetch/blob/master/help/INSTALL-ANDROID.md
-           url "${project(':background_fetch').projectDir}/libs"
-       }
+        //maven {
+        //   // [required] background_fetch
+        //   // compare https://github.com/transistorsoft/flutter_background_fetch/blob/master/help/INSTALL-ANDROID.md
+        //   url "${project(':background_fetch').projectDir}/libs"
+        //}
     }
 }
 
