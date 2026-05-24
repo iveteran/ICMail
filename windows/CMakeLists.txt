@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(enough_mail_app LANGUAGES CXX)
+project(icmail_app LANGUAGES CXX)
 
-set(BINARY_NAME "enough_mail_app")
+set(BINARY_NAME "icmail_app")
 
 cmake_policy(SET CMP0063 NEW)
 

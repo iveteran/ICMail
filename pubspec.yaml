@@ -22,9 +22,9 @@ environment:
   sdk: '>=3.11.5 <5.0.0'
 
 dependencies:
-  enough_mail_app:
+  icmail_app:
     git:
-      url: https://github.com/Enough-Software/enough_mail_app.git
+      url: https://github.com/iveteran/icmail_app.git
   flutter:
     sdk: flutter
   flutter_hooks: ^0.21.3+1
@@ -53,9 +53,9 @@ dependency_overrides:
   enough_mail:
     git:
       url: https://github.com/Enough-Software/enough_mail.git
-  enough_mail_app:
-    git:
-      url: https://github.com/Enough-Software/enough_mail_app.git
+  #icmail_app:
+  #  git:
+  #    url: https://github.com/iveteran/icmail_app.git
   enough_mail_flutter:
     git:
       url: https://github.com/Enough-Software/enough_mail_flutter.git
@@ -90,8 +90,9 @@ dependency_overrides:
     git:
       url: https://github.com/Enough-Software/enough_platform_widgets.git
   # out-comment the following to enable local development:
-  # enough_mail_app:
-  #   path: ../enough_mail_app
+  icmail_app:
+    #path: ../icmail_app
+    path: ../icmail_app
   # enough_mail:
   #   path: ../enough_mail
   # enough_mail_flutter:

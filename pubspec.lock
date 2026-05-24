@@ -487,15 +487,6 @@ packages:
       url: "https://github.com/Enough-Software/enough_mail.git"
     source: git
     version: "2.2.3"
-  enough_mail_app:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: HEAD
-      resolved-ref: fc92b2ccb31647cf0835df02ebb56c4b2ce86c68
-      url: "https://github.com/Enough-Software/enough_mail_app.git"
-    source: git
-    version: "1.0.0+96"
   enough_mail_flutter:
     dependency: "direct overridden"
     description:
@@ -1034,6 +1025,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
+  icmail_app:
+    dependency: "direct main"
+    description:
+      path: "../icmail_app"
+      relative: true
+    source: path
+    version: "1.0.0+96"
   image:
     dependency: transitive
     description:
