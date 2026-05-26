@@ -7,7 +7,8 @@ class CustomSettingsNotifier extends SettingsNotifier {
 
   @override
   String getSignatureHtmlGlobal() =>
-      state.signatureHtml ?? '<p>---<br/>${ref.text.signature}</p>';
+      //state.signatureHtml ?? '<p>---<br/>${ref.text.signature}</p>';  // FIXME: switching sender issue
+      '<p>---<br/>${ref.text.signature}</p>';
 
   @override
   String getSignaturePlainGlobal() =>
