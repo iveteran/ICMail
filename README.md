@@ -1,5 +1,5 @@
 # Codename: ICMail(IncontrolMail)
-Mail app for iOS, Android and hopefully more platforms in the future. Developed in [Flutter](https://flutter.dev).
+ICMail is an open-source email app that puts you in control of your data.
 
 ## Test ICMail
 You can test an early access version of ICMail today:
@@ -47,7 +47,7 @@ You can test an early access version of ICMail today:
 
 ## Miss a feature or found a bug?
 
-Please file feature requests and bugs at the [issue tracker](https://github.com/iveteran/icmail_app/issues).
+Please file feature requests and bugs at the [issue tracker](https://github.com/iveteran/icmail/issues).
 
 ## Localizations
 When you change translations, re-generate the translations files by calling `flutter gen-l10n`.
