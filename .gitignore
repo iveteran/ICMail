@@ -61,3 +61,14 @@ app.*.map.json
 # git worktree
 feat_*
 feature_*
+
+# backup files
+*.bak
+*.orig
+drafts
+
+# target files
+packages
+
+# project lock file
+pubspec.lock
