@@ -51,9 +51,9 @@ dependency_overrides:
   # webview_flutter_android: 3.16.1 # compare https://github.com/pichillilorenzo/flutter_inappwebview/issues/2150
 
   # out-comment the following to enable git-based development:
-  enough_mail:
-    git:
-      url: https://github.com/Enough-Software/enough_mail.git
+  #enough_mail:
+  #  git:
+  #    url: https://github.com/Enough-Software/enough_mail.git
   #icmail_app:
   #  git:
   #    url: https://github.com/iveteran/icmail_app.git
@@ -75,9 +75,9 @@ dependency_overrides:
   enough_icalendar_export:
     git:
       url: https://github.com/Enough-Software/enough_icalendar_export.git
-  enough_html_editor:
-    git:
-      url: https://github.com/Enough-Software/enough_html_editor.git
+  #enough_html_editor:
+  #  git:
+  #    url: https://github.com/Enough-Software/enough_html_editor.git
   enough_text_editor:
     git:
       url: https://github.com/Enough-Software/enough_text_editor.git
@@ -92,10 +92,9 @@ dependency_overrides:
       url: https://github.com/Enough-Software/enough_platform_widgets.git
   # out-comment the following to enable local development:
   icmail_app:
-    #path: ../icmail_app
     path: ../icmail_app
-  # enough_mail:
-  #   path: ../enough_mail
+  enough_mail:
+    path: ../enough_mail
   # enough_mail_flutter:
   #   path: ../enough_mail_flutter
   # enough_mail_html:
@@ -112,8 +111,8 @@ dependency_overrides:
   #   path: ../enough_icalendar_export
   # enough_media:
   #   path: ../enough_media
-  # enough_html_editor:
-  #   path: ../enough_html_editor
+  enough_html_editor:
+    path: ../enough_html_editor
   # enough_text_editor:
   #   path: ../enough_text_editor
   # enough_ascii_art:
